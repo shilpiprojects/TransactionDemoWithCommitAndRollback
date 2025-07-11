@@ -23,6 +23,7 @@ class TransactionDemoWithCommitAndRollback {
 
         System.out.println("Data before Transaction:");
         System.out.println("--------------------------");
+        Sysytem.out.println("this demo is for git rebase in intellij");
         ResultSet rs = st.executeQuery("SELECT * FROM accounts");
 
         while (rs.next()) {
