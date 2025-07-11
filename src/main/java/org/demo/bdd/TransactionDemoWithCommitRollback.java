@@ -31,7 +31,6 @@ class TransactionDemoWithCommitAndRollback {
 
 
         System.out.println("Transaction begins...");
-        System.out.println("this demo is git rebase in intellij");
         con.setAutoCommit(false); 
 
 
