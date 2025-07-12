@@ -26,6 +26,7 @@ public class JDBCDemo {
             System.out.println("Name: " + rs.getString(2));
             System.out.println("Address: " + rs.getString(3));
             System.out.println("-----------");
+            System.out.println("this demo is for git rebase for my intellij");
         }
 
         con.close();
