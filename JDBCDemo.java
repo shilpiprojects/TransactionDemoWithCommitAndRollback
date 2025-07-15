@@ -7,7 +7,7 @@ import java.sql.ResultSet;
 import java.sql.Statement;
 
 public class JDBCDemo {
-    public static void main(String[] args) throws Exception {
+    public staticc void main(String[] args) throws Exception {
 
         Class.forName("com.mysql.cj.jdbc.Driver");
 
